@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     echo "Compilando codigo Java y construyendo imagen Docker ...."
-                    sh "docker build -t ${DOCKER_IMAGE}:${BUILD_NIMBER} ."
+                    sh "docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} ."
                     sh "docker tag ${DOCKER_IMAGE}:${BUILD_NUMBER} ${DOCKER_IMAGE}:latest"
                 }
             }
