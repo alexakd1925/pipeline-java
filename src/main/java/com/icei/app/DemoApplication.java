@@ -17,7 +17,7 @@ public class DemoApplication {
     public String home() {
         return "<html style='background-color: #1e1e1e; color: #00ff00; font-family: monospace; text-align: center; padding: 50px;'>" +
                "<h1>☕ ¡Backend Java Spring Boot!</h1>" +
-               "<p>Compilado con Maven, empaquetado en Docker y desplegado automáticamente por Jenkins.</p>" +
+               "<p>Compilado con Maven, empaquetado en Docker y desplegado automáticamente por Jenkins de ICEI.</p>" +
                "</html>";
     }
 }
